@@ -4,7 +4,7 @@
 
 Home of meta service, entity models, and the extraction tooling shared by Noodlestan docs sites.
 
-**Keywords:** metadata, extraction, entities, purrception.
+**Keywords:** metadata, extraction, entities, purrception, governance.
 
 ## Packages
 
