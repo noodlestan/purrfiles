@@ -6,7 +6,7 @@
 
 **Description:** Browser-safe entity model and query service shared by docs consumers.
 
-**Owner:** Project: Noodlestan Purrception
+**Owner:** Project: Purrfiles
 
 **Author:** Noodlestan Collective
 
@@ -14,7 +14,7 @@
 
 **Canonical Name:** `@noodlestan/purrfiles-entities`
 
-**Published:** `false`
+**Published:** `true`
 
 **Private:** `false`
 

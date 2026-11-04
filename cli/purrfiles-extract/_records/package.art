@@ -6,7 +6,7 @@
 
 **Description:** Generic module entity extraction built on @purrception and @noodlestan/purrfiles-entities.
 
-**Owner:** Project: Noodlestan Purrception
+**Owner:** Project: Purrfiles
 
 **Author:** Noodlestan Collective
 
@@ -14,7 +14,7 @@
 
 **Canonical Name:** `@noodlestan/purrfiles-extract`
 
-**Published:** `false`
+**Published:** `true`
 
 **Private:** `false`
 
