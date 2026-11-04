@@ -1,0 +1,54 @@
+{
+  "name": "noodlestan/purrfiles",
+  "version": "0.0.1",
+  "description": "Home of meta service, entity models, and the extraction tooling shared by Noodlestan docs sites.",
+  "keywords": [
+    "metadata",
+    "extraction",
+    "entities",
+    "purrception"
+  ],
+  "author": "Noodlestan Collective",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noodlestan/purrfiles.git"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "npm@10.2.3",
+  "workspaces": [
+    "libs/**",
+    "cli/**"
+  ],
+  "type": "module",
+  "prettier": "@noodlestan/prettier-config",
+  "scripts": {
+    "turbo": "turbo",
+    "dev": "turbo run dev --ui tui",
+    "clean": "turbo run build:clean",
+    "lint": "prettier . -c",
+    "lint:fix": "prettier . -c --write",
+    "extract": "echo no purrception yet",
+    "ci:root": "npm run lint",
+    "ci": "npm run ci:root && turbo run ci"
+  },
+  "devDependencies": {
+    "@noodlestan/conventions-typescript": "0.1.0",
+    "@noodlestan/conventions-unit-tests": "0.1.0",
+    "@noodlestan/esbuild": "0.1.1",
+    "@noodlestan/eslint-config": "0.0.9",
+    "@noodlestan/prettier-config": "0.1.1",
+    "@noodlestan/tsconfig": "0.2.1",
+    "@types/node": "24.13.0",
+    "@vitest/coverage-v8": "5.0.5",
+    "eslint": "8.57.1",
+    "lefthook": "2.2.2",
+    "prettier": "3.9.10",
+    "turbo": "2.11.10",
+    "typescript": "5.9.3",
+    "vite": "8.3.5"
+  }
+}
