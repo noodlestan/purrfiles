@@ -1,0 +1,50 @@
+# Module
+
+## Repository: Purrfiles
+
+**Purpose:** Host and manage the Purrfiles meta packages.
+
+**Description:** Monorepo with the Noodlestan entity model, meta service, and extraction tools.
+
+**Owner:** Project: Purrfiles
+
+**Author:** Noodlestan Collective
+
+**Remote:** `git@github.com:noodlestan/purrfiles.git`
+
+**Canonical:** `noodlestan/purrfiles`
+
+**Consumers:**
+
+- Art MD
+- Art MD Website
+
+**Private:** `false`
+
+**Workspaces:**
+
+- `libs/**`
+- `cli/**`
+
+**Language:** TypeScript
+
+**Engines:**
+
+- Node: `>= 22`
+
+**PackageManager:** `npm@10.2.3`
+
+**PackageFile:** package.json
+
+**Dependencies:**
+
+- Runtime:
+  - TBD
+- Dev:
+  - TBD
+
+**Scripts:**
+
+- Package Script Set: Root Lifecycle
+
+**License:** License: Noodlestan 2026 MIT

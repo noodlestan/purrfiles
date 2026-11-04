@@ -1,0 +1,33 @@
+# Module
+
+## Project: Purrfiles
+
+**Purpose:** Define entity model and provide shared extraction tooling.
+
+**Description:** Home of meta service, entity models, and the extraction tooling shared by Noodlestan docs sites.
+
+**Owner:** Project: Noodlestan Management
+
+**Author:** Noodlestan Collective
+
+**Repository:** Repository: Purrfiles
+
+**Code:** https://github.com/noodlestan/purrfiles
+
+**Resources:**
+
+- Package: Purrfiles Entities
+- Package: Purrfiles Extract
+
+**Keywords:**
+
+- metadata
+- extraction
+- entities
+- purrception
+
+**Private:** `false`
+
+**Management:** Uses Workflow: Planning Work with a backlog at `_backlog/`.
+
+**License:** License: Noodlestan 2026 MIT
